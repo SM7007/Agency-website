@@ -1,0 +1,72 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Service {
+  id        String   @id
+  icon      String
+  title     String
+  shortDesc String
+  whoFor    String
+  included  String   // JSON stringified array of items
+  result    String?
+  techStack String?  // JSON stringified array of technologies (optional)
+  cta       String   @default("Get a Quote")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Project {
+  slug      String   @id
+  name      String
+  category  String
+  industry  String
+  stack     String   // JSON stringified array of technologies
+  shortDesc String
+  problem   String
+  built     String   // JSON stringified array of accomplishments
+  result    String
+  featured  Boolean  @default(false)
+  visible   Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TeamMember {
+  id        String   @id @default(uuid())
+  name      String
+  role      String
+  bio       String
+  linkedin  String   @default("#")
+  initial   String
+  color     String   // CSS gradient classes (e.g. "from-violet-500 to-indigo-600")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Enquiry {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String
+  service   String
+  budget    String?
+  message   String
+  status    String   @default("New")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Admin {
+  id        String   @id @default(uuid())
+  uname     String   @unique
+  pass      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
