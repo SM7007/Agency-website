@@ -1,6 +1,6 @@
 export const AGENCY_NAME = "Aiosen";
-export const AGENCY_EMAIL = "hello@aiosen.com";
-export const AGENCY_WHATSAPP = "https://wa.me/919999999999";
+export const AGENCY_EMAIL = "aiosenteam@gmail.com";
+export const AGENCY_WHATSAPP = "https://wa.me/917200670847";
 
 export const services = [
   {

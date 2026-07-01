@@ -28,8 +28,17 @@ const values = [
   },
 ];
 
+interface TeamMemberType {
+  name: string;
+  role: string;
+  bio: string;
+  linkedin: string;
+  initial: string;
+  color: string;
+}
+
 export default async function AboutPage() {
-  const teamMembers = await prisma.teamMember.findMany({ orderBy: { createdAt: "asc" } });
+  const teamMembers = await prisma.teamMember.findMany({ orderBy: { createdAt: "asc" } }) as TeamMemberType[];
 
   return (
     <>

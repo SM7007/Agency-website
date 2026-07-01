@@ -78,7 +78,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/917200670847"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-white/5 hover:bg-green-500/20 border border-white/10 hover:border-green-500/30 flex items-center justify-center text-slate-400 hover:text-green-400 transition-all duration-200"
@@ -87,7 +87,7 @@ export default function Footer() {
                 <MessageCircle size={16} />
               </a>
               <a
-                href="mailto:hello@aiosen.com"
+                href="mailto:aiosenteam@gmail.com"
                 className="w-9 h-9 rounded-lg bg-white/5 hover:bg-brand-500/20 border border-white/10 hover:border-brand-500/30 flex items-center justify-center text-slate-400 hover:text-brand-400 transition-all duration-200"
                 aria-label="Email"
               >

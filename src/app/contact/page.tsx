@@ -94,7 +94,7 @@ export default function ContactPage() {
                     For urgent enquiries, WhatsApp us directly.
                   </p>
                   <a
-                    href="https://wa.me/919999999999"
+                    href="https://wa.me/917200670847"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary inline-flex items-center gap-2 mt-2"
@@ -230,7 +230,7 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-white mb-1">Chat on WhatsApp</h3>
                   <p className="text-slate-400 text-sm mb-3">For quick questions and instant replies.</p>
                   <a
-                    href="https://wa.me/919999999999"
+                    href="https://wa.me/917200670847"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-400 hover:text-green-300 text-sm font-medium transition-colors"
@@ -248,10 +248,10 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-white mb-1">Send an Email</h3>
                   <p className="text-slate-400 text-sm mb-3">For detailed project briefs.</p>
                   <a
-                    href="mailto:hello@aiosen.com"
+                    href="mailto:aiosenteam@gmail.com"
                     className="text-brand-400 hover:text-brand-300 text-sm font-medium transition-colors"
                   >
-                    hello@aiosen.com →
+                    aiosenteam@gmail.com →
                   </a>
                 </div>
               </div>
