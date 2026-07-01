@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Zap, Mail, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 
 const LinkedinIcon = ({ size = 16 }: { size?: number }) => (
   <svg
@@ -56,10 +56,20 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-br from-brand-600 to-violet-500 rounded-lg flex items-center justify-center">
-                <Zap size={16} className="text-white" fill="white" />
+                <svg viewBox="0 0 32 32" className="w-4 h-4" fill="none">
+                  <defs>
+                    <linearGradient id="footerGrad" x1="0" y1="0" x2="32" y2="32">
+                      <stop stop-color="#fff" />
+                      <stop offset="1" stop-color="#e2e1ff" />
+                    </linearGradient>
+                  </defs>
+                  <path d="M16 3L3 28H29L16 3Z" stroke="url(#footerGrad)" stroke-width="2.5" stroke-linejoin="round" />
+                  <path d="M8 20H24" stroke="url(#footerGrad)" stroke-width="2.5" stroke-linecap="round" />
+                  <path d="M23 10C26.5 10 28 12 28 14.5C28 17 26 18.5 23 18.5C19.5 18.5 17 20 17 23.5C17 26 19 28.5 22.5 28.5" stroke="url(#footerGrad)" stroke-width="2.5" stroke-linecap="round" fill="none" />
+                </svg>
               </div>
               <span className="font-heading font-bold text-lg text-white">
-                Dev<span className="text-brand-400">Craft</span> Studio
+                A<span className="text-brand-400">iosen</span>
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs mb-6">
@@ -77,7 +87,7 @@ export default function Footer() {
                 <MessageCircle size={16} />
               </a>
               <a
-                href="mailto:hello@devcraftstudio.in"
+                href="mailto:hello@aiosen.com"
                 className="w-9 h-9 rounded-lg bg-white/5 hover:bg-brand-500/20 border border-white/10 hover:border-brand-500/30 flex items-center justify-center text-slate-400 hover:text-brand-400 transition-all duration-200"
                 aria-label="Email"
               >
@@ -118,7 +128,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-xs">
-            © 2025 DevCraft Studio. All rights reserved. Based in Chennai, India.
+            © 2025 Aiosen. All rights reserved. Based in Chennai, India.
           </p>
           <p className="text-slate-600 text-xs">
             Built with Next.js · Tailwind CSS

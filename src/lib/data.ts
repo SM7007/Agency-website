@@ -1,5 +1,5 @@
-export const AGENCY_NAME = "DevCraft Studio";
-export const AGENCY_EMAIL = "hello@devcraftstudio.in";
+export const AGENCY_NAME = "Aiosen";
+export const AGENCY_EMAIL = "hello@aiosen.com";
 export const AGENCY_WHATSAPP = "https://wa.me/919999999999";
 
 export const services = [
@@ -283,7 +283,7 @@ export const teamMembers = [
 export const testimonials = [
   {
     quote:
-      "Working with DevCraft Studio was smooth from start to finish. They understood exactly what we needed and delivered on time.",
+      "Working with Aiosen was smooth from start to finish. They understood exactly what we needed and delivered on time.",
     name: "Arun Kumar",
     role: "Founder, NatureFresh Foods",
     initial: "A",
@@ -297,7 +297,7 @@ export const testimonials = [
   },
   {
     quote:
-      "The One More Mile app idea came to me and they turned it into a real product. Amazing team to work with.",
+      "The One More Mile app idea came to me and Aiosen turned it into a real product. Amazing team to work with.",
     name: "Vijay Anand",
     role: "Founder, One More Mile",
     initial: "V",

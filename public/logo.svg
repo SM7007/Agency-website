@@ -1,0 +1,16 @@
+<svg viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="48" y2="48">
+      <stop stop-color="#5621eb"/>
+      <stop offset="1" stop-color="#a8a0fd"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="2" y="4" width="40" height="40" rx="10" fill="url(#logoGrad)" opacity="0.15"/>
+    <path d="M22 7L9 32H35L22 7Z" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M14 24H30" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M29 14C32.5 14 34 16 34 18.5C34 21 32 22.5 29 22.5C25.5 22.5 23 24 23 27.5C23 30 25 32.5 28.5 32.5" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="52" y="31" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="#ffffff">A</text>
+  <text x="72" y="31" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="#8470fa">iosen</text>
+</svg>

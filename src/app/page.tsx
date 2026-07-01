@@ -9,7 +9,7 @@ import { prisma } from "../../backend/db";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "DevCraft Studio — Digital Products That Actually Work",
+  title: "Aiosen — Digital Products That Actually Work",
   description:
     "Full-stack web, mobile, and AI solutions for startups and growing businesses — built fast, built clean, built to scale.",
 };

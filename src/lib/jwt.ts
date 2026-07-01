@@ -1,4 +1,4 @@
-const JWT_SECRET = process.env.JWT_SECRET || "devcraft-studio-super-secret-key-change-me-in-production";
+const JWT_SECRET = process.env.JWT_SECRET || "aiosen-super-secret-key-change-me-in-production";
 
 function base64urlEncode(str: string): string {
   const encoder = new TextEncoder();

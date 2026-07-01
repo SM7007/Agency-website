@@ -5,15 +5,15 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "DevCraft Studio — Digital Products That Actually Work",
-    template: "%s | DevCraft Studio",
+    default: "Aiosen — Digital Products That Actually Work",
+    template: "%s | Aiosen",
   },
   description:
     "Full-stack web, mobile, and AI solutions for startups and growing businesses — built fast, built clean, built to scale.",
   keywords: ["web development", "mobile apps", "AI automation", "startup", "Chennai", "Next.js", "Flutter"],
-  authors: [{ name: "DevCraft Studio" }],
+  authors: [{ name: "Aiosen" }],
   openGraph: {
-    title: "DevCraft Studio",
+    title: "Aiosen",
     description: "Full-stack web, mobile, and AI solutions for startups.",
     type: "website",
     locale: "en_IN",
@@ -28,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -44,10 +44,20 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 bg-gradient-to-br from-brand-600 to-violet-500 rounded-lg flex items-center justify-center shadow-lg shadow-brand-600/40 group-hover:shadow-brand-600/60 transition-shadow duration-300">
-              <Zap size={16} className="text-white" fill="white" />
+              <svg viewBox="0 0 32 32" className="w-4 h-4" fill="none">
+                <defs>
+                  <linearGradient id="navGrad" x1="0" y1="0" x2="32" y2="32">
+                    <stop stop-color="#fff" />
+                    <stop offset="1" stop-color="#e2e1ff" />
+                  </linearGradient>
+                </defs>
+                <path d="M16 3L3 28H29L16 3Z" stroke="url(#navGrad)" stroke-width="2.5" stroke-linejoin="round" />
+                <path d="M8 20H24" stroke="url(#navGrad)" stroke-width="2.5" stroke-linecap="round" />
+                <path d="M23 10C26.5 10 28 12 28 14.5C28 17 26 18.5 23 18.5C19.5 18.5 17 20 17 23.5C17 26 19 28.5 22.5 28.5" stroke="url(#navGrad)" stroke-width="2.5" stroke-linecap="round" fill="none" />
+              </svg>
             </div>
             <span className="font-heading font-bold text-lg text-white">
-              Dev<span className="text-brand-400">Craft</span>
+              A<span className="text-brand-400">iosen</span>
             </span>
           </Link>
 

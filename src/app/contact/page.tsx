@@ -248,10 +248,10 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-white mb-1">Send an Email</h3>
                   <p className="text-slate-400 text-sm mb-3">For detailed project briefs.</p>
                   <a
-                    href="mailto:hello@devcraftstudio.in"
+                    href="mailto:hello@aiosen.com"
                     className="text-brand-400 hover:text-brand-300 text-sm font-medium transition-colors"
                   >
-                    hello@devcraftstudio.in →
+                    hello@aiosen.com →
                   </a>
                 </div>
               </div>

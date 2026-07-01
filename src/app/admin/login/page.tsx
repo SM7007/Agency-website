@@ -59,7 +59,7 @@ export default function AdminLoginPage() {
             <Lock className="text-white w-6 h-6" />
           </div>
           <h1 className="text-3xl font-heading font-black text-white tracking-tight">
-            DevCraft <span className="gradient-text font-semibold">Studio</span>
+            A<span className="gradient-text font-semibold">iosen</span>
           </h1>
           <p className="text-slate-400 text-sm mt-2">
             Enter your credentials to access the admin panel

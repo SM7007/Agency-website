@@ -3,7 +3,7 @@ import WorkClient from "./WorkClient";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Work | DevCraft Studio",
+  title: "Work | Aiosen",
   description: "Projects we've built for real clients across web, mobile, and AI.",
 };
 
